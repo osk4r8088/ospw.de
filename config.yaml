@@ -1,5 +1,5 @@
 baseURL: https://ospw.de
-languageCode: de-de
+languageCode: en-us
 title: "OSPW Portfolio"
 
 module:
@@ -16,13 +16,13 @@ module:
       target: static/fonts
 
 languages:
-  de:
-    languageCode: de
-    languageName: Deutsch
+  en:
+    languageCode: en
+    languageName: English
     title: "OSPW Portfolio"
     weight: 1
 
-defaultContentLanguage: de
+defaultContentLanguage: en
 
 markup:
   goldmark:

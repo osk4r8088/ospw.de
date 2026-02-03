@@ -1,0 +1,17 @@
+name: "Oskar"
+nickname: "ospw"
+image: "images/author/oskar.png"
+
+greeting: "Hi, I am"
+introduction: "Developer and student focused on web technologies and infrastructure."
+
+typingStrings:
+  - "I build web applications"
+  - "I manage server infrastructure"
+  - "I love self-hosting"
+  - "I explore new technologies"
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/osk4r8088"
