@@ -1,0 +1,11 @@
+name: "Oskar"
+nickname: "ospw"
+image: "images/author/oskar.png"
+
+greeting: "Hi, I'm"
+introduction: "Developer and student focused on web technologies and infrastructure."
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/ospw"

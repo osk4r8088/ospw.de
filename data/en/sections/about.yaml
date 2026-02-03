@@ -1,0 +1,20 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+designation: "Developer & Student"
+company:
+  name: ""
+  url: ""
+
+summary: |
+  I'm a student interested in web development, server infrastructure, and building useful applications.
+  Currently working on various projects including Django applications and self-hosted services.
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/ospw"

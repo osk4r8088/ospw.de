@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  hugo:
+    image: nginx:stable
+    container_name: hugo
+    restart: unless-stopped
+    volumes:
+      - ./public:/usr/share/nginx/html:ro
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external: true
