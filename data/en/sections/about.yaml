@@ -6,9 +6,13 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: "Hugo based docs / wiki / portfolio / project page using Toha."
+designation: "This is a Hugo based docs / wiki / portfolio / project page using Toha."
 
-summary: "Made this as a fun side project while trying to find ways to quickly deploy hugo sites. Feel free to check out the repository or other of my stuff!"
+summary: "Made this as a fun side project while trying to find ways to quickly deploy Hugo sites. 
+Feel free to visit the repository, the site can be cloned, repurposed, customized and redeployed easily.
+Check out the Readme.md for a quick guide, important file locations and commands.<br>
+Also check out my other stuff!"
+
 
 socialLinks:
   - name: Github
