@@ -1,15 +1,14 @@
-name: "Oskar"
+name: "Welcome!"
 nickname: "ospw"
 image: "images/author/oskar.png"
 
-greeting: "Hi, I am"
-introduction: "Developer and student focused on web technologies and infrastructure."
+greeting: ""
+introduction: ""
 
-typingStrings:
-  - "I build web applications"
-  - "I manage server infrastructure"
-  - "I love self-hosting"
-  - "I explore new technologies"
+summary:
+  - I am a Developer
+  - I work on open-source projects
+  - Scroll down to learn more about this project
 
 socialLinks:
   - name: Github

@@ -1,0 +1,8 @@
+// Make skill and project icons white
+.skill-card img,
+.project-card img,
+.card-body img,
+[id="skills"] img,
+[id="projects"] img {
+  filter: brightness(0) invert(1) !important;
+}

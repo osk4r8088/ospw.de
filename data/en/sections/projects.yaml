@@ -1,39 +1,31 @@
-# section information
 section:
   name: Projects
   id: projects
   enable: true
   weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# your projects
 projects:
-- name: macrohub-os
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  - name: hashguard-os
+    logo: /images/sections/projects/github.svg
+    role: Developer
+    timeline: "2025"
+    repo: https://github.com/osk4r8088/hashguard-os
+    summary: "CLI tool to analyze password strength against patterns, dictionaries, and leaked databases."
+    tags: ["python", "security", "cli"]
 
-- name: windows-debloater
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  - name: macrohub-os
+    logo: /images/sections/projects/github.svg
+    role: Developer
+    timeline: "2025 - Present"
+    repo: https://github.com/osk4r8088/macrohub-os
+    summary: "Modular workflow automation toolkit for Windows built with AutoHotkey v2."
+    tags: ["autohotkey", "automation", "windows"]
 
-- name: hashguard-os
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
+  - name: windows-debloater
+    logo: /images/sections/projects/github.svg
+    role: Developer
+    timeline: "2025 - Present"
+    repo: https://github.com/osk4r8088/windows-debloater
+    summary: "PowerShell WinForms GUI to remove preinstalled Windows apps and bloatware."
+    tags: ["powershell", "windows", "utility"]

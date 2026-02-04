@@ -1,6 +1,6 @@
 baseURL: https://ospw.de
 languageCode: en-us
-title: "OSPW Portfolio"
+title: "OSPW"
 
 module:
   imports:
@@ -19,7 +19,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "OSPW Portfolio"
+    title: "OSPW"
     weight: 1
 
 defaultContentLanguage: en
@@ -38,6 +38,8 @@ outputs:
 enableEmoji: false
 
 params:
+  author:
+    name: "ospw"
   features:
     theme:
       enable: true
@@ -53,6 +55,7 @@ params:
       enable: true
   footer:
     enable: true
+    template: footer.html
     navigation:
       enable: false
     contactMe:
@@ -63,3 +66,6 @@ params:
       enable: true
     disclaimer:
       enable: false
+    copyright:
+      enable: true
+      text: "© 2026 ospw"
