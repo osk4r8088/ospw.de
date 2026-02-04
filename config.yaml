@@ -38,6 +38,7 @@ outputs:
 enableEmoji: false
 
 params:
+  background: "images/site/background11.jpg"  # path to your new background
   author:
     name: "ospw"
   features:

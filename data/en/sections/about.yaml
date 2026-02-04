@@ -1,5 +1,5 @@
 section:
-  name: About
+  name: Intro
   id: about
   enable: true
   weight: 1

@@ -1,8 +1,18 @@
-// Make skill and project icons white
+// Make skill and project icons white in dark mode, black in light mode
+// Dark mode (default)
 .skill-card img,
 .project-card img,
 .card-body img,
 [id="skills"] img,
 [id="projects"] img {
   filter: brightness(0) invert(1) !important;
+}
+
+// Light mode - make icons black
+[data-theme="light"] .skill-card img,
+[data-theme="light"] .project-card img,
+[data-theme="light"] .card-body img,
+[data-theme="light"] [id="skills"] img,
+[data-theme="light"] [id="projects"] img {
+  filter: brightness(0) invert(0) !important;
 }
