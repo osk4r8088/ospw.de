@@ -1,14 +1,14 @@
-version: "3.9"
-
 services:
   hugo:
-    image: nginx:stable
+    image: nginx:1.28.2
     container_name: hugo
     restart: unless-stopped
     volumes:
       - ./public:/usr/share/nginx/html:ro
     networks:
       - frontend
+    mem_limit: 64m
+    cpus: 0.25
 
 networks:
   frontend:
